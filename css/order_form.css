@@ -1,0 +1,236 @@
+@CHARSET "ISO-8859-1";
+#order-form{
+	margin: 0;
+	padding: 0;
+    width: 100%;
+	background-image: url('');
+	background-color: #1E1E1E;
+}
+
+.form2go_link_in_footer {
+	color: #ffffff;
+	float: right;
+	line-height: 14px;
+	font-size: 10px;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+.footer-compulsory {
+	float: right;
+	color: #000000 !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: -25px 2px !important;
+	padding: 6px !important;
+	min-height: 14px !important;
+	text-decoration: none !important;
+}
+
+#form-main-container,#form-table {
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #535353;
+	width: 640px;
+	margin: 15px auto;
+	position: relative;
+}
+
+#form-main-container h1 {
+	display: none;
+	background: #2E8ABF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	color: #FFFFFF;
+	padding: 8px !important;
+	margin: 0px;
+}
+
+#form-main-container h2 {
+	display: none;
+	background: #2E8ABF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 12px;
+	color: #FFFFFF;
+	padding: 6px !important;
+	margin: 0px;
+}
+
+.actual-heading {
+	font-size: 18px;
+	line-height: px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	position: relative;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+
+.actual-sub-heading {
+	font-size: 12px;
+	line-height: px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	position: relative;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+
+.actual-form {
+	padding: 0px !important;
+}
+
+.actual_label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	margin: 0 5px 0 0;
+}
+
+.all-check span,.all-radio span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+	margin: 0 15px 0 0;
+}
+
+.sub-label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 16px;
+	color: #000000;
+}
+
+.actual-fields {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px 0;
+}
+
+.actual-fields-label {
+	width: 150px;
+	text-align: left;
+	display: block;
+	float: left;
+	padding: 0 1px;
+}
+
+.actual-fields li {
+	margin: 2px 0;
+	padding: 8px 15px;
+}
+
+.single-field {
+	padding: 0px;
+}
+
+.formBtnContainerPreview {
+	display: block;
+	margin: 0;
+	padding: 7px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.single-field textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000000;
+	border-color: #7F9DB9;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+
+.single-field input[type=text] {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: #000000;
+	border-color: #7F9DB9;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+
+.single-field select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 12px;
+	color: #000000;
+	border-color: #7F9DB9;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+
+.actual-fields .fld_err {
+	background-color: #FFDBDB !important;
+	border: 1px solid #FFB7B7;
+}
+
+.actual-fields .err_span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: px;
+	color: #D62828;
+	background: url('http://www.form2go.com/images/span_error.gif')
+		no-repeat scroll left center transparent;
+	margin: 5px 0;
+	padding: 1px 1px 1px 18px;
+	display: block;
+}
+
+.tip-on-focus {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: px;
+	color: #999999;
+	background-color: #444444;
+	border-color: #666666;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.tip-below-field {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: px;
+	color: #999999;
+	display: block;
+	padding: 5px 5px 5px 0;
+}
+
+.tip-below-field .tool_tip_text {
+	
+}
